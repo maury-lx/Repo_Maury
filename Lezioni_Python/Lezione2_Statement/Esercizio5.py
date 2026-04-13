@@ -10,4 +10,4 @@ print("Il numero uscito sul secondo dado è:", dado2)
 if dado1 == dado2:
     print("Hai vinto")
 else:
-    print("Hai perso")
+    print("Non hai vinto")
