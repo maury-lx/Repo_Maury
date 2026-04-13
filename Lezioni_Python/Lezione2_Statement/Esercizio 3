@@ -1,0 +1,10 @@
+numero = (int(input("Scrivi un numero: ")))
+
+if numero >= 50 and numero <= 100:
+    print("Il numero è compreso sia tra 20 e 100 che tra 50 e 200")
+elif numero >= 50 and numero <= 200:
+    print("Il numero è compreso tra 50 e 200")
+elif numero >= 20 and numero <= 100:
+    print("Il numero è compreso tra 20 e 100")
+else:
+    print("Il numero non è compreso ne tra 20 e 100 né tra 50 e 200")
